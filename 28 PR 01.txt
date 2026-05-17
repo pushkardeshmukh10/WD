@@ -1,0 +1,34 @@
+//1: Create a simple HTML page displaying personal details using text formatting tags
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Personal Details</title> 
+</head> 
+<body> 
+<center> <h1>Personal Details</h1> </center> 
+<p> 
+<strong>Name:</strong> <u>Nayansingh Aditya Rajput</u> 
+</p> 
+<p> 
+<strong>Address:</strong> Nashik 
+</p> 
+<p> 
+<strong>Occupation:</strong> <em>Computer Engineering Student</em> 
+</p> 
+<p><strong>Hobbies:</strong></p>
+<ul> 
+<li>Cricket</li> 
+<li>Football</li> 
+</ul> 
+<p> 
+<strong>Contact:</strong> 
+<br> 
+<abbr title="Contact Number">Phone:</abbr> 9722548597
+<br> 
+<abbr title="Email Address">Mail:</abbr> 
+<a href="mailto:25_nayansingh.rajput@ges-coengg.org">25_nayansingh.rajput@ges-coengg.org</a> 
+<br><br> 
+<img src="img1.jpg" alt="Profile Picture" width="1200" height="400"> 
+</p> 
+</body> 
+</html>

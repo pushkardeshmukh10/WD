@@ -1,0 +1,71 @@
+// 4: Application of Internal, External, and Inline Css to Style a Webpage with Headings and Tables
+ 1.HTML
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Styling Example</title>
+<!-- Link External CSS file to html document-->
+<link rel="stylesheet" href="style.css">
+<!-- Internal CSS -->
+<style>
+h2 {
+color: darkred;
+text-align: center;
+}
+.highlight {
+background-color: pink;
+font-weight: bold;
+}
+</style>
+</head>
+<body>
+<!-- Inline CSS -->
+<h1 style="font-size: 40px;">Student Record Table</h1>
+<h2>Using Internal, External and Inline CSS</h2>
+<table>
+<tr>
+<th>Name</th>
+<th>Roll No</th>
+<th>Marks</th>
+</tr>
+<tr>
+<td>Rishil</td>
+<td> 101</td>
+<td>85</td>
+</tr>
+<tr>
+<td>Shubham</td>
+<td>102</td>
+<td>78</td>
+<tr>
+<tr>
+<td>Puneet</td>
+<td>103</td>
+<td>92</td>
+</tr>
+</table>
+</body>
+</html>
+
+2. CSS
+body {  
+background-color:offwhite;  
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;  }  
+h1 {  
+background-color:pink;  
+font-size: 50px;  
+color: azure;  
+text-align: center; }  
+table {  
+width: 50%;  
+margin: 20px auto;  
+border: 2px solid black;  
+border-collapse: collapse; }  
+th, td {  
+text-align: center;  
+padding: 12px;  
+border: 1px solid gray; }  
+th {  
+background-color: lightgreen;  
+color: azure; }
+

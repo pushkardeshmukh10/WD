@@ -1,0 +1,52 @@
+//2:Design a web page that includes an image, hyperlink, and a nested table
+<!DOCTYPEhtml> 
+<html> 
+<head> 
+<title>StudentInfo</title> 
+<style> 
+table 
+{width:100 
+%; 
+border- 
+collapse:collapse; 
+margin-top: 25px;
+border: 2px solid black;    
+} 
+th, td {
+border: 1px solid black;
+text-align: left;
+padding: 10px; 
+} 
+th { 
+background-color:pink; 
+} 
+</style> 
+<h1>Student List</h1> 
+<table> 
+<thead> 
+<tr> 
+<th>Student Name</th> 
+<th>Branch</th> 
+<th>Year</th> 
+</tr>
+</thead> 
+<tbody> 
+<tr> 
+<td>Shubham</td> <td>Computer </td> <td>SE</td> </tr> 
+<tr> 
+<td>Manthan</td> <td>Mechanical</td> <td>SE</td> </tr> 
+<tr> 
+<td>Ketan</td> <td>Civil</td> <td>SE</td> </tr> 
+<tr> 
+<td>Nayan</td> <td>Computer</td> <td>SE</td> </tr> 
+<tr> 
+<td>Puneet</td> <td>Entc</td> <td>SE</td> </tr>  
+</tbody> 
+</table> 
+<br>
+<!--Hyperlink--> 
+<a href="https://www.google.com" target="_blank">For more information</a><!--
+Opens the link in a new browser tab or window- -> <br><br> 
+</body> 
+</html>
+

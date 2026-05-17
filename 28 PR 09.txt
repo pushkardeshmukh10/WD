@@ -1,0 +1,6 @@
+//9: Design a PHP script to display "Welcome" message and current date & time.
+<?php
+date_default_timezone_set("Asia/Kolkata");
+echo "Welcome\n";  
+echo "Current Date and Time: " . date("Y-m-d H:i:s");
+?>

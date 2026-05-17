@@ -1,0 +1,23 @@
+1.Example
+<?php
+$fruits = array("Apple", "Banana", "Mango", "Orange");
+echo "<b>Fruits List:</b><br>"; 
+for ($i = 0; $i < count($fruits); $i++) {
+   echo $fruits[$i] . "<br>";
+}
+?>
+2.Another Example
+<?php
+$numbers = array(45, 12, 78, 23, 56); 
+echo "<b>Original Numbers:</b><br>"; 
+foreach ($numbers as $num) {
+   echo $num . "<br>";
+}
+sort($numbers); // Sort the array
+echo "<br><b>Sorted Numbers (Ascending):</b><br>";
+foreach ($numbers as $num) {
+   echo $num . "<br>";
+}
+echo "<br><b>Largest Number:</b> " . max($numbers); 
+echo "<br><b>Smallest Number:</b> " . min($numbers); 
+?>

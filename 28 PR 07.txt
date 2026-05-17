@@ -1,0 +1,51 @@
+//7:Create a web page that uses JavaScript to display dynamic content using DOM
+<!DOCTYPE html>
+<html leng="en">
+<head>
+<title>DOM Dynamic Content Example</title>
+<style>
+body{
+font-family: Arial;
+text-align: center;
+margin-top: 100px;
+transition: background-color 0.5s;
+}
+#message{
+font-size: 24px;
+margin-bottom: 20px;
+}
+button{
+padding:10px 20px;
+font-size: 16px;
+cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+<h1>DOM Dynamic Content</h1>
+<p id="message">Click the button to change content</p>
+<button onclick="changeContent ()">Click Me </button>
+
+<script>
+
+function changeContent () {
+let messages=[
+"Welcome to JavaScript DOM!",
+"You clicked the button!",
+"DOM makes pages interactive!",
+"Learning JavaScript is fun!"
+];
+	
+let colors = ["lightblue" , "lightgreen", "lightyellow","lightpink"]
+
+let randomIndex = Math.floor(Math.random() * messages.length);
+
+document.getElementById("message") .textContent= messages [randomIndex];
+document.body.style.backgroundColor = colors [randomIndex];
+}
+</script>
+</body>
+</html>
+    
+     
