@@ -1,0 +1,29 @@
+<?php
+
+$fruits = array("Apple", "Banana", "Mango", "Orange");
+
+echo "<h3>All Fruits:</h3>";
+
+print_r($fruits);
+
+echo "<br><br>";
+
+echo "<h3>Fruits List:</h3>";
+
+foreach($fruits as $fruit) {
+
+    echo $fruit . "<br>";
+
+}
+
+$fruits[] = "Grapes";
+
+echo "<br><h3>After Adding Grapes:</h3>";
+
+foreach($fruits as $fruit) {
+
+    echo $fruit . "<br>";
+
+}
+
+?>

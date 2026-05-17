@@ -1,0 +1,19 @@
+<?php
+
+$str = "Hello, World!";
+
+$length = strlen($str);
+
+$reversed = strrev($str);
+
+$substring = substr($str, 7, 5);
+
+echo "Original String: " . $str . "<br>";
+
+echo "Length of String: " . $length . "<br>";
+
+echo "Reversed String: " . $reversed . "<br>";
+
+echo "Substring (from index 7, length 5): " . $substring . "<br>";
+
+?>
